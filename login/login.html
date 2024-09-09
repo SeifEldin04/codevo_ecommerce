@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/Css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/Css/styleLogin.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&family=Bebas+Neue&family=Blinker&family=Forum&family=PT+Sans+Caption&family=Pacifico&family=Righteous&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&family=Bebas+Neue&family=Blinker&family=Forum&family=Open+Sans&family=PT+Sans+Caption&family=Pacifico&family=Righteous&family=Slabo+27px&display=swap"
+        rel="stylesheet">
+    <title>CODEVO log-in</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fix py-4 d-flex justify-content-evenly">
+        <div class="container">
+
+            <!-- left nav -->
+            <a class="navbar-brand fw-bolder" href="../index.html"><img src="bootstrap/images/logo.svg" class="w-100" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- center nav -->
+            <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- right nav -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 rightNav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="myCart"><i class="fa-solid fa-cart-shopping" id="NumberProductsCart"> <h6 class="d-none"></h6> </i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-regular fa-user"></i></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-regular fa-bell"></i></a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="signupAndLoginPage" class="my-5">
+        <div class="contentSign">
+            <div class="container mySignUp mx-auto my-5 text-center">
+                <div class="group m-auto w-50 p-5">
+                    <!-- <img src="bootstrap/images/fashion title.png" class="w-25 mb-5" alt=""> -->
+                    <h1 class="codevo mb-4">codevo sign-up</h1>
+                    <input class="form-control mb-4" type="text" id="signUpName" required placeholder="Enter Your Name">
+                    <input class="form-control mb-4" type="email" id="signUpEmail" required
+                        placeholder="Enter Your Email">
+                    <input class="form-control mb-4" type="password" id="signUpPassword" required
+                        placeholder="Enter Your Password">
+
+                    <div class="text-center" id="message1"></div>
+
+                    <button class="btnSignup" id="signUp">Sign Up</button>
+
+                    <p class="text-dark mt-3">If you have an account?
+                        <a class="text-decoration-none mySignInBtn">Signin</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="container mySignIn mx-auto my-5 text-center d-none">
+                <div class="group m-auto w-50 p-5">
+                    <!-- <img src="bootstrap/images/fashion title.png" class="w-25 mb-5" alt=""> -->
+                    <h1 class="codevo mb-4">codevo Login</h1>
+                    <input class="form-control mb-4" type="email" id="signInEmail" required
+                        placeholder="Enter Your Email">
+                    <input class="form-control mb-4" type="password" id="signInPassword" required
+                        placeholder="Enter Your Password">
+
+                    <div class="text-center" id="message2"></div>
+
+                    <button class="btnSignup" id="SignIn">Sign In</button>
+
+                    <p class="text-dark mt-3">Don’t have an account?
+                        <a class="text-decoration-none mySignUpBtn">Signup</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="container myHome mx-auto my-5 text-center d-none">
+                <nav class="navbar navbar-light myNavHome my-5">
+                    <div class="container">
+                        <a class="navbar-brand fw-bold">Smart Login</a>
+                        <!-- <form class="d-flex"> -->
+                        <button id="logBtn" class="btn btn-outline-danger">Logout</button>
+                        <!-- </form> -->
+                    </div>
+                </nav>
+
+                <div class="group m-auto w-75 p-5 my-5">
+                    <p class="fs-1 fw-bolder">Welcome <span id="userName"></span> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="bootstrap/js/login.js"></script>
+</body>
+
+</html>

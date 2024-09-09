@@ -1,0 +1,231 @@
+:root {
+    --primary-color: #ff5e3a;
+    --default-color: #4f5665;
+    --black-color: #000;
+    --grey-color: #f0f0f0;
+    --white-color: #fff;
+    --lightpink: #ffcce0;
+    --blue: #1a1aff;
+    --custom: #1a1aff;
+    --color: #4d4d4d;
+    --lightblue: #ccccff;
+    --box-shadow-1: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --box-shadow-2: 0 5px 15px rgba(255, 94, 58, 0.2);
+    --gradient: linear-gradient(to bottom, #fccb90, #ff9a9e);
+    --gradient-2: linear-gradient(to bottom, #FCCB90, #FFB9BC);
+    --btn-gradient: linear-gradient(to bottom, #ff5151 50%, #ff5e3a);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--black-color);
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+section {
+    padding: 5rem 0 5rem;
+    overflow: hidden;
+}
+
+p {
+    line-height: 3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    /* background: var(--grey-color); */
+    color: #fff;
+}
+
+input:focus {
+    /* background-color: rgb(212, 207, 207); */
+    transform: scale(1.03);
+    transition: transform 0.3s;
+}
+
+
+
+/* #signupAndLoginPage {
+    background: var(--grey-color);
+    width: 1400px;
+    height: 600px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow-1);
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+} */
+
+#signupAndLoginPage .contentSign {
+    position: relative;
+}
+
+#signupAndLoginPage .contentSign .closeBtn i {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.mySignUp,
+.mySignIn {
+    cursor: pointer;
+}
+
+.myHome p{
+    color: var(--primary-color);
+}
+
+.myNavHome a{
+    color: var(--primary-color);
+}
+
+.myFashionWidth {
+    width: 20%;
+}
+
+.codevo {
+    font-family: 'Aclonica', sans-serif;
+    color: var(--primary-color);
+}
+
+.group {
+    /* box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px; */
+    box-shadow: var(--box-shadow-2);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-control {
+    background-color: rgb(255, 255, 255);
+}
+
+.btnSignup {
+    background: var(--gradient);
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: var(--black-color);
+    transition: all 0.4s;
+}
+
+.btnSignup:hover {
+    background: var(--primary-color);
+}
+
+input:focus {
+    border: var(--primary-color);
+}
+
+nav {
+    background-color: #f4f4f4;
+}
+
+.rightNav li i {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#NumberProductsCart{
+    position: relative;
+}
+
+#NumberProductsCart h6{
+    background-color: red;
+    color: var(--white-color);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -5px;
+    top: -10px;
+}
+
+#cartDetails {
+    margin: 50px 0 0 0;
+}
+
+#cartDetails .productCart {
+    margin: 20px 0 ;
+    border-radius: 20px;
+    border: var(--black-color) 1px solid;
+}
+
+#cartDetails .productCart .detailsCart {
+    margin: 10px 0;
+    padding: 10px 0;
+    background: var(--grey-color);
+    border-radius: 15px;
+    border: var(--black-color) 1px solid;
+}
+
+#cartDetails .productCart .detailsCart h3,
+h4 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cartDetails .productCart .btnsCart {
+    margin: 40px 0 0 0;
+}
+
+#cartDetails .productCart .btnsCart button {
+    display: block;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 10px 35px;
+    margin: 10px auto;
+}

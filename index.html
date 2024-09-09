@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/Css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/Css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&family=Bebas+Neue&family=Blinker&family=Forum&family=PT+Sans+Caption&family=Pacifico&family=Righteous&display=swap"
+        rel="stylesheet">
+
+
+    <title>CODEVO</title>
+</head>
+
+<body>
+    <!-- start navbar -->
+
+    <nav class="navbar navbar-expand-lg fix py-4 d-flex justify-content-evenly fixed-top">
+        <div class="container">
+
+            <!-- left nav -->
+            <a class="navbar-brand fw-bolder" href="#"><img src="bootstrap/images/logo.svg" class="w-100" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- center nav -->
+            <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- right nav -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 rightNav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="myCart"><i class="fa-solid fa-cart-shopping" id="NumberProductsCart">
+                                <h6 class="d-none"></h6>
+                            </i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Sign"><i class="fa-regular fa-user"></i></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-regular fa-bell"></i></a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- start header -->
+    <header id="home" class="my-5 py-5">
+        <div class="hero">
+            <div class="row container d-flex justify-content-center align-items-center">
+                <div class="col">
+                    <span class="subTitle">Limited Time Only For Winter</span>
+                    <h1>fash<span class="i">i</span>on</h1>
+                    <p>LOOK YOUR BEST ON YOUR BEST DAY</p>
+
+                    <button class="btn">Explore Now!</button>
+                </div>
+
+                <img src="bootstrap/images/woman-in-cart.png" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start collection section -->
+    <section id="collection" class="collection my-5">
+        <div class="container">
+            <div class="title text-center">
+                <span>COLLECTION</span>
+                <h2>Our Top Collection</h2>
+            </div>
+
+            <div class="filters d-flex justify-content-center m-5">
+                <div dataFilter="Jewellery">Jewellery</div>
+                <div dataFilter="Accessories">Accessories</div>
+                <div dataFilter="Dresses">Dresses</div>
+                <div dataFilter="Footwear">Footwear</div>
+            </div>
+
+            <div class="CollectionProducts container">
+                <div class="row">
+                    <div class="col-lg-4 py-2">
+                        <div class="CollectionProduct">
+                            <div class="CollectionProductTop">
+                                <img src="bootstrap/images/product-1.png" class="w-100" alt="">
+                                <div class="CollectionProductIcon">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="CollectionProductBottom py-2">
+                                <h4 class="py-3 px-5 fw-bolder">Nike Air Men’s Hoodie - Imported
+                                    Hoodie Red </h4>
+                                <div class="CollectionProductDetails d-flex justify-content-between px-5 pb-2">
+                                    <div class="price">$150</div>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 py-2">
+                        <div class="CollectionProduct">
+                            <div class="CollectionProductTop">
+                                <img src="bootstrap/images/product-2.png" class="w-100" alt="">
+                                <div class="CollectionProductIcon">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="CollectionProductBottom py-2">
+                                <h4 class="py-3 px-5 fw-bolder">Nike Air Men’s Hoodie - Imported
+                                    Hoodie Red </h4>
+                                <div class="CollectionProductDetails d-flex justify-content-between px-5 pb-2">
+                                    <div class="price">$150</div>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 py-2">
+                        <div class="CollectionProduct">
+                            <div class="CollectionProductTop">
+                                <img src="bootstrap/images/product-3.png" class="w-100" alt="">
+                                <div class="CollectionProductIcon">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="CollectionProductBottom py-2">
+                                <h4 class="py-3 px-5 fw-bolder">Nike Air Men’s Hoodie - Imported
+                                    Hoodie Red </h4>
+                                <div class="CollectionProductDetails d-flex justify-content-between px-5 pb-2">
+                                    <div class="price">$400</div>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end collection section -->
+
+    <!-- start new arrival section -->
+    <section id="newArrival" class="newArrival my-5">
+        <div class="container">
+            <div class="title text-center">
+                <span>New Arrival</span>
+                <h2>Latest Collection</h2>
+            </div>
+        </div>
+
+        <div class="row container">
+            <div class="myCol myCol1">
+                <img src="bootstrap/images/poster-1.png" class="w-100" alt="">
+                <h3>2021 Trends <br>
+                    Women’s Smart Skirt</h3>
+            </div>
+
+            <div class="myCol myCol2">
+                <img src="bootstrap/images/poster-2.png" class="w-100" alt="">
+                <h3>2021 Trends <br>
+                    Women’s Smart Skirt</h3>
+            </div>
+
+            <div class="myCol myCol3">
+                <img src="bootstrap/images/poster-3.png" class="w-100" alt="">
+                <h3>2021 Trends <br>
+                    Women’s Smart Shirt</h3>
+            </div>
+        </div>
+    </section>
+    <!-- end new arrival section -->
+
+    <!-- start categories section -->
+    <section id="categories" class="categories my-5">
+        <div class="container">
+            <div class="title text-center">
+                <span>CATEGORIES</span>
+                <h2>2021 Latest Collection</h2>
+            </div>
+        </div>
+
+        <div class="container searchProductsByName">
+            <input type="text" id="searchProducts" placeholder="search by name..">
+        </div>
+
+        <div class="products py-5">
+            <div class="row container mx-auto" id="productsData">
+
+
+
+            </div>
+
+            <div class="container mx-auto">
+                <button class="btn my-5" id="loadMore">Load More</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- end categories section -->
+
+    <!-- start stats section -->
+    <section id="stats" class="stats my-5">
+        <div class="container">
+            <div class="title text-center">
+                <span>STATS</span>
+                <h2>Our Statistics</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 text-center">
+                <div class="specialIcon my-5 mx-auto">
+                    <i class="fa-solid fa-square-check"></i>
+                </div>
+                <h3>Easy Order System</h3>
+                <p>Lorem Ispum is a placeholder text <br>
+                    commomly used as a free text.</p>
+            </div>
+
+            <div class="col-lg-3 text-center">
+                <div class="icon my-5 mx-auto">
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+                <h3>On Time Delievery</h3>
+                <p>Lorem Ispum is a placeholder text <br>
+                    commomly used as a free text.</p>
+            </div>
+
+            <div class="col-lg-3 text-center">
+                <div class="icon my-5 mx-auto">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                </div>
+                <h3>Money Back Gaurantee</h3>
+                <p>Lorem Ispum is a placeholder text <br>
+                    commomly used as a free text.</p>
+            </div>
+
+            <div class="col-lg-3 text-center">
+                <div class="icon my-5 mx-auto">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <h3>24/7 Customer Support</h3>
+                <p>Lorem Ispum is a placeholder text <br>
+                    commomly used as a free text.</p>
+            </div>
+        </div>
+    </section>
+    <!-- end stats section -->
+
+    <!-- start blogs section -->
+    <section id="blog" class="blog my-5">
+        <div class="container">
+            <div class="title text-center">
+                <span>BLOGS</span>
+                <h2>Latest News</h2>
+            </div>
+        </div>
+
+        <div class="blogs container">
+            <div class="row my-5">
+                <div class="col-lg-4">
+                    <div class="blog text-center">
+                        <div class="card">
+                            <img src="bootstrap/images/blog-1.png" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title fw-bolder">Trendy</h3>
+                                <p class="card-text">Lorem Ispum is a placeholder text <br>
+                                    commomly used as a free text.</p>
+                                <p class="text-muted">8 April 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="blog text-center">
+                        <div class="card">
+                            <img src="bootstrap/images/blog-2.png" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title fw-bolder">Trendy</h3>
+                                <p class="card-text">Lorem Ispum is a placeholder text <br>
+                                    commomly used as a free text.</p>
+                                <p class="text-muted">25 July 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="blog text-center">
+                        <div class="card">
+                            <img src="bootstrap/images/blog-3.png" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title fw-bolder">Trendy</h3>
+                                <p class="card-text">Lorem Ispum is a placeholder text <br>
+                                    commomly used as a free text.</p>
+                                <p class="text-muted">10 January 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end blog section -->
+
+    <!-- start ads -->
+    <section id="ads" class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <video width="850" height="440" autoplay controls muted>
+                        <source src="bootstrap/images/E-Commerce video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end ads -->
+
+    <!-- start signup -->
+    <div id="signupAndLoginPage" class="my-5">
+        <div class="contentSign">
+            <div class="closeBtn">
+                <i id="close" class="fa-solid fa-circle-xmark"></i>
+            </div>
+
+            <div class="container mySignUp mx-auto my-5 text-center">
+                <div class="group m-auto w-50 p-5">
+                    <!-- <img src="bootstrap/images/fashion title.png" class="w-25 mb-5" alt=""> -->
+                    <h1 class="codevo mb-4">codevo sign-up</h1>
+                    <input class="form-control mb-4" type="text" id="signUpName" required placeholder="Enter Your Name">
+                    <input class="form-control mb-4" type="email" id="signUpEmail" required
+                        placeholder="Enter Your Email">
+                    <input class="form-control mb-4" type="password" id="signUpPassword" required
+                        placeholder="Enter Your Password">
+
+                    <div class="text-center" id="message1"></div>
+
+                    <button class="btnSignup" id="signUp">Sign Up</button>
+
+                    <p class="text-dark mt-3">If you have an account?
+                        <a class="text-decoration-none mySignInBtn">Signin</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="container mySignIn mx-auto my-5 text-center d-none">
+                <div class="group m-auto w-50 p-5">
+                    <!-- <img src="bootstrap/images/fashion title.png" class="w-25 mb-5" alt=""> -->
+                    <h1 class="codevo mb-4">codevo Login</h1>
+                    <input class="form-control mb-4" type="email" id="signInEmail" required
+                        placeholder="Enter Your Email">
+                    <input class="form-control mb-4" type="password" id="signInPassword" required
+                        placeholder="Enter Your Password">
+
+                    <div class="text-center" id="message2"></div>
+
+                    <button class="btnSignup" id="SignIn">Sign In</button>
+
+                    <p class="text-dark mt-3">Don’t have an account?
+                        <a class="text-decoration-none mySignUpBtn">Signup</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="container myHome mx-auto my-5 text-center d-none">
+                <nav class="navbar navbar-light myNavHome my-5">
+                    <div class="container">
+                        <a class="navbar-brand fw-bold">Smart Login</a>
+                        <!-- <form class="d-flex"> -->
+                        <button id="logBtn" class="btn btn-outline-danger">Logout</button>
+                        <!-- </form> -->
+                    </div>
+                </nav>
+
+                <div class="group m-auto w-75 p-5 my-5">
+                    <p class="fs-1 fw-bolder">Welcome <span id="userName"></span> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end signup -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="bootstrap/js/main.js" type="module"></script>
+</body>
+
+</html>
